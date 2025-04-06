@@ -64,3 +64,11 @@
   .auth-btn:hover {
     background-color: #bbdefb;
   }
+
+  @media (max-width: 768px) {
+    .nav-item ul {
+      flex-direction: column;
+      width: 100%;
+      display: none;
+    }
+  }
