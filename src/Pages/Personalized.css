@@ -1,0 +1,78 @@
+.personalized-container {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 2rem;
+    background-color: #f9fbfd;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+    color: #1a237e;
+  }
+  
+  .learning-section h2 {
+    margin-bottom: 1rem;
+    color: #0d47a1;
+  }
+  
+  .learning-cards {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  
+  .learning-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease;
+  }
+  
+  .learning-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .progress-bar {
+    background-color: #e3f2fd;
+    height: 10px;
+    border-radius: 6px;
+    margin: 1rem 0;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    background-color: #42a5f5;
+    height: 100%;
+    border-radius: 6px 0 0 6px;
+    transition: width 0.5s ease;
+  }
+  
+  .progress-text {
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .cta {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  .explore-btn {
+    padding: 0.75rem 2rem;
+    background-color: #1e88e5;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .explore-btn:hover {
+    background-color: #1565c0;
+  }
+  
